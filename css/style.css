@@ -1,0 +1,130 @@
+body{
+    justify-content: flex-start;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: column;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: auto;
+    order: auto;
+}
+/* header{
+    justify-content: flex-start;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: auto;
+    order: auto;
+} */
+nav{
+    justify-content: space-around;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: column;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: auto;
+    order: auto;
+    font-size: 50px;
+    width: 900px;
+}
+
+.mydata{
+    justify-content: flex-start;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: nowrap;
+    order: auto;
+}
+
+.heroimg{
+    width: 70vw;
+    height: 500px;
+    /* margin-left: 300px; */
+    /* color: linear-gradient(45deg, blue, red); */
+}
+.hero{
+
+}
+
+.contact{
+    transform: rotatez(-90deg);
+}
+
+.aboutme{
+    justify-content: space-around;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: nowrap;
+    order: auto;
+    width: 100vw;
+}
+.aboutmeHeader{
+    justify-content: space-around;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: column;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: auto;
+    order: auto;
+}
+
+.aboutme > .aboutmecols > article{
+    font-size: 20px;
+    /* background-color: grey; */
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: column;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: auto;
+    order: auto;
+
+    text-align: center;
+}
