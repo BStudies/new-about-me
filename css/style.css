@@ -11,7 +11,9 @@ body{
 	flex-grow: auto;
 	flex-shrink: auto;
 	flex-wrap: auto;
-    order: auto;
+	order: auto;
+	
+	text-align: center;
 }
 /* header{
     justify-content: flex-start;
@@ -169,4 +171,53 @@ nav{
 .lego_text{
 	border: 3px solid black;
 	margin: 20px;
+}
+
+
+
+.appLanding{
+	width: 300px;
+}
+
+
+.project{
+	justify-content: space-around;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: auto;
+	order: auto;
+	
+}
+
+
+.projects{	
+	justify-content: space-around;
+    align-items: center;
+    
+    align-content: auto;
+	align-self: auto;
+	display: flex;
+	flex-basis: auto;
+	flex-direction: row;
+	flex-flow: auto;
+	flex-grow: auto;
+	flex-shrink: auto;
+	flex-wrap: auto;
+    order: auto;
+}
+
+.main_project{
+
+}
+
+.main_appLanding{
+	width: 500px;
 }
