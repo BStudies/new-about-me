@@ -67,13 +67,14 @@ nav{
 }
 
 .heroimg{
-    width: 90vw;
+    width: 700px;
     height: 500px;
     /* margin-left: 300px; */
     /* color: linear-gradient(45deg, blue, red); */
 }
 .hero{
-
+	width: 700px;
+    height: 500px;
 }
 
 .label{
