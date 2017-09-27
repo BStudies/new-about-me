@@ -1,7 +1,7 @@
 html{
-	margin: 40px;
-	width: 100vw;
-	background-color: #2f2f2f;
+	/* margin: 40px; */
+	width: 130vw;
+	background-color: #8D97A1;
 	color: #FFF6EE;
 }
 
@@ -21,8 +21,10 @@ body{
 	order: auto;
 	
 	text-align: center;
-
-
+	background-color: #2f2f2f;
+	
+	margin: 100px;
+	
 }
 
 nav{
@@ -40,10 +42,11 @@ nav{
 	flex-wrap: auto;
     order: auto;
     font-size: 50px;
-    width: 90vw;
+    width: 100%;
 	margin: 50px;
 
-	background-color: #EADAE7;
+	background-color: #698EA6;
+	height: 200px;
 }
 
 .mydata{
@@ -67,7 +70,8 @@ nav{
 }
 
 .heroimg{
-    width: 80%;
+	width: 90%;
+	transform: rotatez(-20deg);
     /* color: linear-gradient(45deg, blue, red); */
 }
 .hero{
@@ -78,12 +82,13 @@ nav{
 	height: 400px;
 	background-size: cover;
 	margin: 40px;
+	
 }
 
 .label{
     transform: rotatez(-90deg);
-	width: 150px;
-	height: 100px;
+	width: 320px;
+	height: 150px;
 }
 
 .aboutme{
@@ -215,7 +220,7 @@ nav{
 	flex-wrap: auto;
 	order: auto;
 	
-	border: 3px solid black;
+	border: 3px solid white;
 	margin: 40px;
 	height: 300px;
 }
@@ -240,7 +245,7 @@ nav{
 
 .main_project{
 	margin: 90px;
-	border: 3px solid black;
+	border: 3px solid white;
 }
 
 .main_appLanding{
@@ -257,7 +262,7 @@ a{
 	text-decoration: none;
 }
 a:visited{
-	color: black;
+	color: white;
 }
 a:hover{
 	color: grey;
@@ -272,6 +277,7 @@ a:hover{
 .uavAward{
 	width: 80%;
 	height: 80%;
+	margin: 0 0 200px 0;
 }
 
 
