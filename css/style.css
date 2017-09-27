@@ -173,6 +173,7 @@ nav{
 
 	margin: 20px;
 	
+	
 }
 
 .lego_info{
@@ -283,4 +284,10 @@ a:hover{
 
 p{
 	font-size: 30px;
+}
+
+.auv_corner{
+	width: 500px;
+	height: 500px;
+	transform: rotatez(120deg);
 }
